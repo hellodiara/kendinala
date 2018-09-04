@@ -1,6 +1,6 @@
 /* NAVBAR */
 .navbar{
- background:#983B53;
+ background: #983B53;
 }
 .nav-link , .navbar-brand{
  color: #f4f4f4;
@@ -21,8 +21,39 @@
 }
 /* HEADER */
 .header{
- background-image: url('/img/African-Wedding-Platform.jpg');
+ background-image: url('https://github.com/hellodiara/kendinala/blob/master/img/African-Wedding-Platform.jpg');
  background-attachment: fixed;
  background-size: cover;
  background-position: center;
+}
+
+.overlay{
+ position: absolute;
+ min-height: 100%;
+ min-width: 100%;
+ left: 0;
+ top: 0;
+ background: rgba(244, 244, 244, 0.79);
+}
+/* DESCRIPTION */ 
+.description{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 2em;
+}
+.description h1{
+ color: #983B53;
+}
+.description p{
+ color:#666;
+ font-size: 20px;
+ width: 50%;
+ line-height: 1.5;
+}
+
+.description button{
+ border:1px  solid #983B53;
+ background:#983B53;
+ color:#fff;
 }
