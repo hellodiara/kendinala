@@ -1,23 +1,33 @@
+body {
+	font-family: Lato, sans-serif !important;
+}
 /* NAVBAR */
 .navbar{
  background-color: transparent !important;
 }
+
 .nav-link , .navbar-brand{
  color: #f4f4f4;
  cursor: pointer;
 }
+
 .nav-link{
  margin-right: 1em !important;
+ font-weight: 400;
 }
+
 .nav-link:hover{
  color: #983B53; /* Light Burgundy */
 }
+
 .navbar-collapse{
  justify-content: flex-end;
 }
+
 .navbar-toggler{
   background:#fff !important;
 }
+
 /* HEADER */
 .header{
  background-image: url('https://raw.githubusercontent.com/hellodiara/kendinala/master/img/African-Wedding-Platform.jpg');
@@ -36,16 +46,23 @@
 
 .description h1{
  color: white;
+ font-family: Raleway, sans-serif;
 }
 
 .description p{
  color: white;
  font-size: 20px;
  line-height: 1.5;
+ font-weight: 100 !important;
 }
 
 .description button{
  border:1px  solid #983B53; /* Light Burgundy */
  background: #983B53; /* Light Burgundy */
  color:#fff;
+}
+
+.container {
+	padding-top: 40px;
+	padding-bottom: 20px;
 }
