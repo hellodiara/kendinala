@@ -10,6 +10,10 @@ body {
  color: #f4f4f4;
  cursor: pointer;
 }
+.logo {
+	width:35px;
+	padding-right: 5px;
+}
 
 .nav-link{
  margin-right: 1em !important;
