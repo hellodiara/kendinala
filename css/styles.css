@@ -80,6 +80,9 @@ body {
 	height: 75px;
 	padding-bottom: 5px;
 }
+#iphone-app {
+	width: 500px;
+}
 
 /* FOOTER */ 
 .social_media_icon {
