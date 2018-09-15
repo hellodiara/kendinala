@@ -22,18 +22,15 @@ body {
 .nav-link{
  margin-right: 1em !important;
  font-weight: 400;
+ color: white!important;
 }
 
 .nav-link:hover{
- color: #983B53; /* Light Burgundy */
+ color: #983B53!important; /* Light Burgundy */
 }
 
 .navbar-collapse{
  justify-content: flex-end;
-}
-
-.navbar-toggler{
-  background:#fff !important;
 }
 
 /* HEADER */
